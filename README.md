@@ -1,13 +1,6 @@
-iOS Blank App
+iOS Auth App
 =============
-iOS Blank app is a simple app to get you started with FH iOS sdk.
 
+This is an IOS app, created in studio using the initial IOS app template.  The code in AppDelegate.m performs an auth call when the app is launched.  Keep an eye on the console to see if the auth call succeeded or failed.
 
-You can scaffold this app either:
-- using RHMAP (Red Hat Mobile Application Platform) UI console.
-- or clone directly from this repository. If you clone it manually to make the app buildable in RHMAP Build Farm, replace the templaeing ```%id%``` in ```FHStarterProject\FHStarterProject-Info.plist``` in the following block:
-
-```xml
-<key>CFBundleIdentifier</key>
-<string>%id%</string>
-```
+Use this app as a reference if you have problems checking if your IOS app has trouble performing an auth call.
